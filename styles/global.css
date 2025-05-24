@@ -1,6 +1,7 @@
 body{
     height: 100vh;
     font-family: "Shadows Into Light";
+    background-color: #efe6db;
 }
 
 li{
@@ -12,7 +13,8 @@ a{
     color: inherit;
 }
 
-#hero {
+#hero, #tree, .links,
+#tree .buttons .button a {
     display: flex;
     justify-content: center;
     align-items: center;
