@@ -1,0 +1,38 @@
+:root{
+    --cor-primaria: #151718;
+    --cor-secundaria: #ef686b;
+    --cor-secundaria-transparente: #ef686b30;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(200deg, var(--cor-secundaria), var(--cor-primaria), var(--cor-primaria) );
+    font-family: "rubik", sans-serif;
+}
+
+li{
+    /* tirar os pontos da lista */
+    list-style-type: none; 
+}
+
+a{
+    /* Tirar o sublinhado dos links */
+    text-decoration: none;
+}
+
+.apresentacao , .arvore {
+    border: 1px solid red;
+    width: 100%;
+    height: 50%;
+}
